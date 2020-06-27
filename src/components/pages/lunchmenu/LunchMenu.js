@@ -13,7 +13,6 @@ import {
   lunchEntrees,
   lunchSushiSashimi,
   lunchSides,
-  makiRolls,
   bento,
   bento1,
 } from '../../../datas/lunchItems';

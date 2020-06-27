@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Bento = (props) => {
-  const { bground, bento, bento1, wrapper_id } = props;
+  const { bground, wrapper_id } = props;
   return (
     <div className={`bento-box ${bground}`} id={wrapper_id}>
       <div className='bento-box-header'>

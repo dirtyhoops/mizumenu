@@ -1,4 +1,4 @@
-import React, { useEffect, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import MenuItems from '../../layout/MenuItems/MenuItems';
 import SushiSashimi from '../../layout/MenuItems/SushiSashimi';
 import MakiRolls from '../../layout/MenuItems/MakiRolls';

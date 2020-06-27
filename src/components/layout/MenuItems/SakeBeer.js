@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SakeBeer = (props) => {
-  const { bground, items, items2, wrapper_id } = props;
+  const { bground } = props;
   return (
     <div className={`sakebeer-box ${bground}`} id='sakebeer'>
       <div className='sakebeer-box-header'>
