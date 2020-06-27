@@ -1,10 +1,9 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import DinnerMenu from './components/pages/dinnermenu/DinnerMenu';
 import LunchMenu from './components/pages/lunchmenu/LunchMenu';
 import LandingPage from './components/pages/landingpage/LandingPage';
-import NavBar from './components/layout/NavBar/NavBar';
 import DrinkMenu from './components/pages/drinkmenu/DrinkMenu';
 
 // Import the sass styling

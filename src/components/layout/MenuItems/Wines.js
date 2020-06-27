@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 
 const Wines = (props) => {
-  const { bground, items, items2, wrapper_id } = props;
+  const { bground } = props;
   return (
     <Fragment>
       <div className={`wines-box ${bground}`} id='wines'>

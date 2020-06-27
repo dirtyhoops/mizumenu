@@ -3,7 +3,7 @@ import DrinkNavBar from '../../layout/NavBar/DrinkNavBar';
 import Cocktails from '../../layout/MenuItems/Cocktails';
 import { cocktails, cocktails2 } from '../../../datas/drinkItems';
 import SakeBeer from '../../layout/MenuItems/SakeBeer';
-import Wines from '../../layout/MenuItems/Wines';
+// import Wines from '../../layout/MenuItems/Wines';
 
 const DrinkMenu = () => {
   return (
