@@ -3,7 +3,8 @@ import DrinkNavBar from '../../layout/NavBar/DrinkNavBar';
 import Cocktails from '../../layout/MenuItems/Cocktails';
 import { cocktails, cocktails2 } from '../../../datas/drinkItems';
 import SakeBeer from '../../layout/MenuItems/SakeBeer';
-// import Wines from '../../layout/MenuItems/Wines';
+import Wines from '../../layout/MenuItems/Wines';
+import Spirits from '../../layout/MenuItems/Spirits';
 
 const DrinkMenu = () => {
   return (
@@ -16,8 +17,9 @@ const DrinkMenu = () => {
           items2={cocktails2}
           wrapperid={'cocktails'}
         />
+        <Wines bground={'blackwhite'} />
         <SakeBeer bground={'blackwhite'} />
-        {/* <Wines bground={'whiteblack'} /> */}
+        <Spirits bground={'blackwhite'} />
       </div>
     </Fragment>
   );

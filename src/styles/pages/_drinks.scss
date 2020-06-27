@@ -64,7 +64,7 @@
   }
 
   &-box {
-    padding: 25px 10px;
+    padding: 25px 80px;
     &-header {
       height: 65px;
       text-align: center;
@@ -76,7 +76,7 @@
         & li {
           display: flex;
           flex-wrap: wrap;
-          padding: 5px 50px;
+          padding: 5px 10px;
           line-height: 13px;
         }
       }
@@ -87,7 +87,7 @@
     &-type {
       flex: 0 0 85%;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
       margin: 15px 0;
     }
@@ -98,7 +98,7 @@
       font-size: 13px;
       padding-left: 15px;
       font-weight: 600;
-      line-height: 0.8;
+      line-height: 1;
     }
 
     &-span {
@@ -109,7 +109,7 @@
     &-price {
       flex: 0 0 15%;
       text-align: right;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 300;
       line-height: 0.8;
     }
@@ -143,9 +143,12 @@
         & li {
           display: flex;
           flex-wrap: wrap;
-          padding: 5px 50px;
-          line-height: 13px;
+          // line-height: 13px;
         }
+      }
+
+      &-items {
+        padding: 5px 15px;
       }
     }
   }
@@ -154,9 +157,8 @@
     &-type {
       flex: 0 0 85%;
       text-transform: uppercase;
-      font-size: 15px;
+      font-size: 14px;
       font-weight: 600;
-      margin: 15px 0;
     }
 
     &-name {
@@ -165,7 +167,8 @@
       font-size: 13px;
       padding-left: 15px;
       font-weight: 600;
-      line-height: 0.8;
+      line-height: 1.2;
+      margin-bottom: 10px;
     }
 
     &-span {
@@ -176,17 +179,78 @@
     &-price-glass {
       flex: 0 0 15%;
       text-align: right;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 300;
-      line-height: 0.8;
+      // line-height: 0.8;
     }
 
     &-price-bottle {
       flex: 0 0 15%;
       text-align: right;
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 300;
-      line-height: 0.8;
+      // line-height: 0.8;
+    }
+
+    &-bigger {
+      font-size: 20px !important;
+    }
+  }
+}
+
+.spirits {
+  &-wrapper {
+    width: 100%;
+  }
+
+  &-box {
+    padding: 25px 80px;
+    &-header {
+      height: 65px;
+      text-align: center;
+      color: rgb(241, 34, 34);
+    }
+
+    &-container {
+      & ul {
+        & li {
+          display: flex;
+          flex-wrap: wrap;
+          // line-height: 13px;
+        }
+      }
+
+      &-items {
+        padding: 5px 15px;
+      }
+    }
+  }
+
+  &-text {
+    &-type {
+      flex: 0 0 85%;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 7px;
+    }
+
+    &-name {
+      flex: 0 0 85%;
+      text-transform: capitalize;
+      font-size: 13px;
+      padding-left: 15px;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    &-price {
+      flex: 0 0 15%;
+      text-align: right;
+      font-size: 12px;
+      font-weight: 300;
+      // line-height: 0.8;
     }
   }
 }
