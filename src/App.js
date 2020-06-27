@@ -1,5 +1,10 @@
 import React, { Fragment } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  BrowserRouter,
+} from 'react-router-dom';
 
 import DinnerMenu from './components/pages/dinnermenu/DinnerMenu';
 import LunchMenu from './components/pages/lunchmenu/LunchMenu';
@@ -15,13 +20,14 @@ const App = () => {
       <Fragment>
         <div className='container'>
           {/* <NavBar /> */}
-
-          <Switch>
-            <Route exact path='/' component={LandingPage} />
-            <Route exact path='/dinner' component={DinnerMenu} />
-            <Route exact path='/lunch' component={LunchMenu} />
-            <Route exact path='/drinks' component={DrinkMenu} />
-          </Switch>
+          <BrowserRouter basename='/React'>
+            <Switch>
+              <Route exact path='/' component={LandingPage} />
+              <Route exact path='/dinner' component={DinnerMenu} />
+              <Route exact path='/lunch' component={LunchMenu} />
+              <Route exact path='/drinks' component={DrinkMenu} />
+            </Switch>
+          </BrowserRouter>
         </div>
       </Fragment>
     </Router>
