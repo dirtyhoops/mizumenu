@@ -15,7 +15,6 @@ const DrinkMenu = () => {
           bground={'blackwhite'}
           items={cocktails}
           items2={cocktails2}
-          wrapperid={'cocktails'}
         />
         <Wines bground={'blackwhite'} />
         <SakeBeer bground={'blackwhite'} />

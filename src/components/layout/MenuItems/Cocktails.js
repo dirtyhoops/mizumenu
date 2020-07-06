@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Cocktails = props => {
-  const { bground, items, items2, wrapper_id } = props;
+  const { bground, items, items2 } = props;
   return (
     <div className={`cocktails-box ${bground}`} id='cocktails'>
       <div className='cocktails-box-header'>
