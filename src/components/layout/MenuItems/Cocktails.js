@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Cocktails = (props) => {
+const Cocktails = props => {
   const { bground, items, items2, wrapper_id } = props;
   return (
-    <div className={`cocktails-box ${bground}`} id={wrapper_id}>
+    <div className={`cocktails-box ${bground}`} id='cocktails'>
       <div className='cocktails-box-header'>
         <p className='heading-secondary'>cocktails</p>
       </div>

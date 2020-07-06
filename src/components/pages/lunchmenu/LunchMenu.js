@@ -14,7 +14,7 @@ import {
   lunchSushiSashimi,
   lunchSides,
   bento,
-  bento1,
+  bento1
 } from '../../../datas/lunchItems';
 
 import {
@@ -23,7 +23,7 @@ import {
   lunchHotAppetizersImages,
   entreesImages,
   sushiSashimiImages,
-  sideImages,
+  sideImages
 } from '../../../datas/itemsImages';
 
 const LunchMenu = () => {
@@ -58,10 +58,11 @@ const LunchMenu = () => {
         <SushiSashimi bground={'blackwhite'} />
         <MenuItems
           bground={'blackwhite'}
-          header={'sushi & sashimi dinner'}
+          header={'sushi & sashimi lunch'}
           wrapper_id={'sushidinner'}
           items={lunchSushiSashimi}
           images={sushiSashimiImages}
+          bigpicture={'true'}
         />
 
         <MakiRolls bground={'whiteblack'} />

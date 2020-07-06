@@ -102,16 +102,23 @@
     line-height: 1.2;
   }
 
-  &-sushi {
+  &-header {
     flex: 0 0 30%;
     font-size: 13px;
     text-align: center;
     line-height: 1.2;
   }
 
+  &-sushi {
+    flex: 0 0 30%;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.2;
+  }
+
   &-sashimi {
     flex: 0 0 30%;
-    font-size: 13px;
+    font-size: 12px;
     text-align: center;
     line-height: 1.2;
   }

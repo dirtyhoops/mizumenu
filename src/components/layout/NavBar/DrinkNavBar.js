@@ -14,7 +14,7 @@ const DrinkNavBar = () => {
               to='cocktails'
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-20}
               duration={500}
             >
               <li>Cocktails</li>
@@ -24,7 +24,7 @@ const DrinkNavBar = () => {
               to='sakebeer'
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-20}
               duration={500}
             >
               <li>Sake & Beer</li>
@@ -34,7 +34,7 @@ const DrinkNavBar = () => {
               to='wines'
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-20}
               duration={500}
             >
               <li>Wines</li>
@@ -44,7 +44,7 @@ const DrinkNavBar = () => {
               to='spirits'
               spy={true}
               smooth={true}
-              offset={-60}
+              offset={-20}
               duration={500}
             >
               <li>Spirits</li>

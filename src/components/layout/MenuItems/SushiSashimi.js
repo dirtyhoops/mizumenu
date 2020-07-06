@@ -1,7 +1,7 @@
 import React from 'react';
 import { sushiSashimi } from '../../../datas/dinnerItems';
 
-const SushiSashimi = (props) => {
+const SushiSashimi = props => {
   const { bground } = props;
   return (
     <div className={`dinner-box ${bground}`} id='sushisashimi'>
@@ -12,10 +12,10 @@ const SushiSashimi = (props) => {
         <ul>
           <li>
             <p className='sushisashimi-list-name'></p>
-            <p className='sushisashimi-list-sushi'>
+            <p className='sushisashimi-list-header'>
               <span className='u-text-bold'>Sushi</span>(2pcs)
             </p>
-            <p className='sushisashimi-list-sashimi'>
+            <p className='sushisashimi-list-header'>
               <span className='u-text-bold'>Sashimi</span>(4pcs)
             </p>
           </li>

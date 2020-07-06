@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Bento = (props) => {
+const Bento = props => {
   const { bground, wrapper_id } = props;
   return (
     <div className={`bento-box ${bground}`} id={wrapper_id}>
@@ -74,7 +74,7 @@ const Bento = (props) => {
             <li>
               <p>beef bulgogi *</p>
               <p>
-                spicy portk bulgogi *{' '}
+                spicy pork bulgogi *{' '}
                 <i className='fas fa-pepper-hot icon-hotpepper'></i>
               </p>
             </li>
