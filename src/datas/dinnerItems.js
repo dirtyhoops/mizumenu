@@ -62,7 +62,7 @@ export const dinnerHotAppetizers = [
   {
     name: 'crispy rice with spicy tuna',
     description:
-      'spicy tuna over a layer of crispy rice & spicy aioli topped with jalapenos & srirachas',
+      'spicy tuna over a layer of crispy rice & spicy aioli topped with jalapenos & sriracha',
     price: 17,
     isSpicy: true
   },
