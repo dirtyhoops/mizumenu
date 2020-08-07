@@ -63,7 +63,7 @@ const Bento = props => {
               <p>chicken katsu</p>
             </li>
             <li>
-              <p>beef teriyaki</p>
+              <p>chicken teriyaki</p>
               <p>salmon teriyaki</p>
               <p>beef teriyaki *</p>
             </li>
@@ -104,7 +104,7 @@ const Bento = props => {
       <p className='bento-box-asterisk'>* No double orders for select items</p>
       <div className='bento-box-image'>
         <img
-          src='https://scontent-sjc3-1.xx.fbcdn.net/v/t1.0-9/26904626_1086278014848082_999476936117865523_n.jpg?_nc_cat=102&_nc_sid=110474&_nc_oc=AQn6ii671rhELmwB_yXxtYvG7MDGC0aJtJ0MqjeTV9T45WVmSntvPKf0Yvn1o8G4RjR4RNQjgl1lN_RSudmUn7US&_nc_ht=scontent-sjc3-1.xx&oh=0cdea79c0e9f8adb3069e6466ef4bc08&oe=5F177445'
+          src='http://mizusbg.com/mtnview/wp-content/uploads/sites/5/2013/03/bento-full-pg-header-1.jpg'
           alt=''
         />
       </div>
