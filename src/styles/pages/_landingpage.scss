@@ -12,6 +12,25 @@
   background-position: center;
   background-size: cover;
 
+  &--sanjose {
+    padding: 100px 0;
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-black, 0.7),
+        rgba($color-black, 0.7)
+      ),
+      url('http://mizusbg.com/wp-content/uploads/2015/01/san-jose-night.jpg');
+
+    background-position-x: 70%;
+    background-size: cover;
+
+    @include respond(xs-phone) {
+      padding: 60px 0;
+    }
+  }
+
   @include respond(xs-phone) {
     padding: 60px 0;
   }
@@ -29,10 +48,6 @@
     background-size: cover;
     background-position: center;
     margin: 0 auto;
-
-    // & img {
-    //   width: 100%;
-    // }
   }
 }
 
