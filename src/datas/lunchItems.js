@@ -1,16 +1,59 @@
+// Lunch Salad
+export const lunchSalad = [
+  {
+    name: 'side salad',
+    price: 5
+  },
+  {
+    name: 'cucumber salad',
+    price: 6.5
+  },
+  {
+    name: 'seaweed salad (wakame)',
+    price: 9
+  },
+  {
+    name: 'mizu house salad',
+    description:
+      'spring greens, cucumber, tomatoes, carrots, avocado & strawberries served with sesame vinaigrette',
+    additionalDescription: 'add chicken for $4 or salmon for $7',
+    price: 11.5,
+    isGlutenFree: true
+  },
+  {
+    name: 'sashimi salad',
+    description:
+      'spring greens with assorted sashimi & sliced avocado served with yuzu dressing',
+    price: 16.5
+  },
+  {
+    name: 'spicy tuna salad',
+    description:
+      'chopped tuna, avocado, cucumber, tobiko, green onions, sesame seeds & kaiware on a bed of spring greens tossed in a spicy dressing',
+    price: 16.5,
+    isSpicy: true
+  }
+];
+
 // lunch HOT APPETIZERS
 export const lunchHotAppetizers = [
   {
-    name: 'almond chicken',
+    name: 'shrimp tempura (5pcs)',
     description:
-      'seasoned chicken with green onions, chili powder & almonds drizzled with teriyaki sauce',
-    price: 14.5
+      'battered & lightly-fried shrimps served with house tempura sauce',
+    price: 12.5
   },
   {
-    name: 'takoyaki',
+    name: 'veggie tempura (6pcs)',
     description:
-      'diced octopus breaded & deep-fried to a golden crisp topped with takoyaki sauce, green onion & bonito flakes',
-    price: 11.5
+      'battered & lightly-fried veggies served with house tempura sauce',
+    price: 9.5
+  },
+  {
+    name: 'assorted tempura (9pcs)',
+    description:
+      'battered & lightly-friend mixed veggies and shrimps served with house tempura sauce',
+    price: 15
   },
   {
     name: 'baked green mussels',
@@ -19,11 +62,21 @@ export const lunchHotAppetizers = [
     price: 9.5
   },
   {
-    name: 'spicy popcorn scallops',
+    name: 'gyoza',
+    description: 'pan-fried pork dumplings with sauce',
+    price: 9
+  },
+  {
+    name: 'agedashi tofu',
     description:
-      'deep-fried scallops served in a sweet & spicy mayo sauce topped with green onions',
-    price: 14.5,
-    isSpicy: true
+      'deep-fried tofu topped with bonito flakes, seaweed, minced daikon & green onions and served with house tempura sauce',
+    price: 10
+  },
+  {
+    name: 'almond chicken',
+    description:
+      'seasoned chicken with green onions, chili powder & almonds drizzled with teriyaki sauce',
+    price: 14.5
   },
   {
     name: 'crispy rice with spicy tuna',
@@ -33,9 +86,22 @@ export const lunchHotAppetizers = [
     isSpicy: true
   },
   {
-    name: 'calamari',
-    description: 'deep-fried seasoned calamari served with cocktail sauce',
-    price: 13.5
+    name: 'honeymoon special',
+    description:
+      'chopped spicy scallop, dungeness crab & tobiko seasoned with spicy aoili placed over rice & wrapped with salmon slices. *served flambe',
+    price: 16.5
+  },
+  {
+    name: 'hamachi kama',
+    description: 'grilled yellowtail collar served with ponzu sauce',
+    price: 14.5
+  },
+  {
+    name: 'spicy popcorn scallops',
+    description:
+      'deep-fried scallops served in a sweet & spicy mayo sauce topped with green onions',
+    price: 14.5,
+    isSpicy: true
   },
   {
     name: 'croquettes',
@@ -44,22 +110,27 @@ export const lunchHotAppetizers = [
     price: 8.5
   },
   {
-    name: 'veggie tempura (6pcs)',
+    name: 'takoyaki',
     description:
-      'battered & lightly-fried veggies served with house tempura sauce',
-    price: 9.5
+      'diced octopus breaded & deep-fried to a golden crisp topped with takoyaki sauce, green onion & bonito flakes',
+    price: 11.5
   },
   {
-    name: 'shrimp tempura (5pcs)',
-    description:
-      'battered & lightly-fried shrimps served with house tempura sauce',
-    price: 12.5
+    name: 'calamari',
+    description: 'deep-fried seasoned calamari served with cocktail sauce',
+    price: 13.5
   },
   {
-    name: 'assorted tempura (9pcs)',
+    name: 'sweet potato fries',
+    description: 'deep-fried sweet potatoes served with wasabi mayo',
+    price: 9
+  },
+  {
+    name: 'spicy tuna poppers',
     description:
-      'battered & lightly-friend mixed veggies and shrimps served with house tempura sauce',
-    price: 15
+      'deep-fried jalapenos stuffed with spicy tuna & cream cheese topped with unagi sauce',
+    price: 14,
+    isSpicy: true
   }
 ];
 
@@ -116,62 +187,16 @@ export const lunchSides = [
   {
     name: 'garlic edamame',
     price: 8
-  },
-  {
-    name: 'side salad',
-    price: 5
-  },
-  {
-    name: 'cucumber salad',
-    price: 6.5
-  },
-  {
-    name: 'seaweed salad (wakame)',
-    price: 9
   }
 ];
 
 // lunch COLD APPETIZERS
 export const lunchColdAppetizers = [
   {
-    name: 'mizu house salad',
-    description:
-      'spring greens, cucumber, tomatoes, carrots, avocado & strawberries served with sesame vinaigrette',
-    additionalDescription: 'add chicken for $4 or salmon for $7',
-    price: 11.5,
-    isGlutenFree: true
-  },
-  {
-    name: 'sashimi salad',
-    description:
-      'spring greens with assorted sashimi & sliced avocado served with yuzu dressing',
-    price: 16.5
-  },
-  {
-    name: 'spicy tuna salad',
-    description:
-      'chopped tuna, avocado, cucumber, tobiko, green onions, sesame seeds & kaiware on a bed of spring greens tossed in a spicy dressing',
-    price: 16.5,
-    isSpicy: true
-  },
-  {
     name: 'yellowtail tartar',
     description:
       'diced tuna green onions, cilantro & jalapeno mixed in ponzu sauce topped with wasabi tobiko, quail egg & kaiware served in grape seed oil sauce',
     price: 17.5
-  },
-  {
-    name: 'tuna tartar',
-    description:
-      'diced tuna, green onions, jalapeno, oshinko & avocados mixed in ponzu sauce topped with black tobiko, quail egg & kaiware served in grape seed oil sauce',
-    price: 17.5
-  },
-  {
-    name: 'yellowtail crudo (6ps)',
-    description:
-      'yellowtail sashimi with yuzu soy, garlic puree, serrano peppers, micro cilantro & white truffle oil',
-    price: 14.5,
-    isSpicy: true
   },
   {
     name: 'mizu bomb',
@@ -182,11 +207,42 @@ export const lunchColdAppetizers = [
     isSpicy: true
   },
   {
+    name: 'tuna tartar',
+    description:
+      'diced tuna, green onions, jalapeno, oshinko & avocados mixed in ponzu sauce topped with black tobiko, quail egg & kaiware served in grape seed oil sauce',
+    price: 17.5
+  },
+  {
+    name: 'salmon carpaccio',
+    description:
+      'salmon sashimi with red onion,, orange zest, bonito flakes, ponzu sauce & olive oil',
+    price: 15.5
+  },
+  {
+    name: 'yellowtail crudo (6ps)',
+    description:
+      'yellowtail sashimi with yuzu soy, garlic puree, serrano peppers, micro cilantro & white truffle oil',
+    price: 14.5,
+    isSpicy: true
+  },
+  {
+    name: 'tako carpacio',
+    description:
+      'octopus sashimi with wasabi garlic aioli black tobiko, serrano peppers, olive oil, rose salt, lemon juice & house nikiri soy',
+    price: 16.5
+  },
+  {
     name: 'cajun tuna sashimi (8pcs)',
     description:
       'thinly sliced seared tuna in cajun seasoning & grap seed oil dressing topped with green onion, baked garlic chips, carrots, jalapenos & kaiware',
     price: 16,
     isSpicy: true
+  },
+  {
+    name: 'citrus-seared salmon (6pcs)',
+    description:
+      'seared salmon sashimi with yuzu soy, dill weed, garlic salt & micro cilantro',
+    price: 15.5
   }
 ];
 
@@ -245,6 +301,13 @@ export const sushiRolls = [
     isGlutenFree: true
   },
   {
+    name: 'rainbow blossom',
+    description:
+      'dungeness crab, avocado, cucumber, wrapped with tuna, salmon topped with deep-fried bay scallops, green onion, tobiko with spicy aoili & unagi sauce',
+    price: 19,
+    isSpicy: true
+  },
+  {
     name: 'santana',
     description: 'crab, salmon, & avocado with tobiko',
     price: 11,
@@ -263,30 +326,10 @@ export const sushiRolls = [
     isGlutenFree: true
   },
   {
-    name: 'rainbow blossom',
-    description:
-      'dungeness crab, avocado, cucumber, wrapped with tuna, salmon topped with deep-fried bay scallops, green onion, tobiko with spicy aoili & unagi sauce',
-    price: 19,
-    isSpicy: true
-  },
-  {
     name: 'albacore delight',
     description:
       'dungeness crab, avocado, cucumber topped with albacore, sliced red onion, green onion, drizzled with japanese dressing',
     price: 14.5
-  },
-  {
-    name: 'yellowtail special',
-    description: 'yellowtail, cucumber topped with yellowtail & sliced lemon',
-    price: 15.5,
-    isGlutenFree: true
-  },
-  {
-    name: 'hurricanne',
-    description:
-      'spicy tuna roll wrapped in soy paper deep-fried & topped with crispy potato noodles, unagi sauce & sriracha',
-    price: 15,
-    isSpicy: true
   },
   {
     name: 'titanic fire',
@@ -296,11 +339,24 @@ export const sushiRolls = [
     isSpicy: true
   },
   {
+    name: 'hurricanne',
+    description:
+      'spicy tuna roll wrapped in soy paper deep-fried & topped with crispy potato noodles, unagi sauce & sriracha',
+    price: 15,
+    isSpicy: true
+  },
+  {
     name: 'butterfly',
     description:
       'spicy yellowtail, cucumber & topped with unagi, soft shell crab, dungeness crab, tobiko, green onion served with spicy aioli & unagi sauce',
     price: 16,
     isSpicy: true
+  },
+  {
+    name: 'yellowtail special',
+    description: 'yellowtail, cucumber topped with yellowtail & sliced lemon',
+    price: 15.5,
+    isGlutenFree: true
   },
   {
     name: 'rainbow',
@@ -315,17 +371,17 @@ export const sushiRolls = [
     price: 16
   },
   {
+    name: 'green dragon',
+    description:
+      'shrimp tempura, cucumber, gobo topped with avocado, unagi sauce & sesame seeds',
+    price: 15.5
+  },
+  {
     name: 'red dragon',
     description:
       'shrimp tempura, cucumber, topped with spicy tuna, tobiko, green onion, unagi sauce, spicy aioli & red onions',
     price: 15.5,
     isSpicy: true
-  },
-  {
-    name: 'green dragon',
-    description:
-      'shrimp tempura, cucumber, gobo topped with avocado, unagi sauce & sesame seeds',
-    price: 15.5
   },
   {
     name: 'crazy dragon',
@@ -356,17 +412,17 @@ export const sushiRolls = [
     isSpicy: true
   },
   {
-    name: 'super spider',
-    description:
-      'soft shell crab, eel, asparagus, cucumber, topped with spicy tuna, tempura flakes, red tobiko drizzled with spicy aoili & unagi sauce',
-    price: 16.5,
-    isSpicy: true
-  },
-  {
     name: 'alaska',
     description:
       'spicy crab & avocado topped with salmon & spicy aioli baked to perfection drizzled with unagi sauce',
     price: 15.5,
+    isSpicy: true
+  },
+  {
+    name: 'super spider',
+    description:
+      'soft shell crab, eel, asparagus, cucumber, topped with spicy tuna, tempura flakes, red tobiko drizzled with spicy aoili & unagi sauce',
+    price: 16.5,
     isSpicy: true
   },
   {
@@ -376,17 +432,17 @@ export const sushiRolls = [
     price: 14.5
   },
   {
-    name: 'spicy crunch',
-    description:
-      'avocado, spicy crab, eel, cucumber topped with unagi sauce, spicy mayo, wasabi mayo, green onion, tobiko & tempura flakes',
-    price: 16.5,
-    isSpicy: true
-  },
-  {
     name: 'yami yami',
     description:
       'deep-fried white fish, topped with chopped tuna & salmon mixed in spicy sauce, topped with tobiko, green onion, spicy aioli, wasabi aioli & unagi sauce',
     price: 17.5,
+    isSpicy: true
+  },
+  {
+    name: 'spicy crunch',
+    description:
+      'avocado, spicy crab, eel, cucumber topped with unagi sauce, spicy mayo, wasabi mayo, green onion, tobiko & tempura flakes',
+    price: 16.5,
     isSpicy: true
   }
 ];

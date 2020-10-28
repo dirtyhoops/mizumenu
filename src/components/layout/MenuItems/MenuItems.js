@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MenuItems = (props) => {
+const MenuItems = props => {
   const { bground, items, header, images, wrapper_id, bigpicture } = props;
   return (
     <div className={`dinner-box ${bground}`} id={wrapper_id}>

@@ -4,6 +4,8 @@ import SushiSashimi from '../../layout/MenuItems/SushiSashimi';
 import MakiRolls from '../../layout/MenuItems/MakiRolls';
 import Sides from '../../layout/MenuItems/Sides';
 import NavBar from '../../layout/NavBar/NavBar';
+import KidsMeal from '../../layout/MenuItems/KidsMeal';
+import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 
 import {
   dinnerHotAppetizers,
@@ -12,6 +14,9 @@ import {
   dinnerEntrees,
   dinnerSides,
   dinnerSushiSashimi,
+  dinnerSalad,
+  dinnerUdon,
+  dinnerDonburi
 } from '../../../datas/dinnerItems';
 
 import {
@@ -21,6 +26,7 @@ import {
   entreesImages,
   sideImages,
   sushiSashimiImages,
+  saladImages
 } from '../../../datas/itemsImages';
 
 const DinnerMenu = () => {
@@ -29,6 +35,14 @@ const DinnerMenu = () => {
       <NavBar />
       <div className='dinner-wrapper'>
         <Sides bground={'blackwhite'} items={dinnerSides} images={sideImages} />
+
+        <MenuItems
+          bground={'blackwhite'}
+          header={'salads'}
+          wrapper_id={'salads'}
+          items={dinnerSalad}
+          images={saladImages}
+        />
 
         <MenuItems
           bground={'whiteblack'}
@@ -66,13 +80,17 @@ const DinnerMenu = () => {
 
         <MakiRolls bground={'whiteblack'} />
 
-        <MenuItems
+        <DinnerMenuItem
           bground={'blackwhite'}
           header={'entrees'}
           wrapper_id={'entrees'}
           items={dinnerEntrees}
+          dinnerUdon={dinnerUdon}
+          dinnerDonburi={dinnerDonburi}
           images={entreesImages}
         />
+
+        <KidsMeal bground={'blackwhite'} wrapper_id={'bento'} />
       </div>
     </Fragment>
   );

@@ -5,6 +5,8 @@ import Sides from '../../layout/MenuItems/Sides';
 import NavBar from '../../layout/NavBar/NavBar';
 import MakiRolls from '../../layout/MenuItems/MakiRolls';
 import Bento from '../../layout/MenuItems/Bento';
+import KidsMeal from '../../layout/MenuItems/KidsMeal';
+import DinnerMenuItem from '../../layout/MenuItems/DinnerMenuItem';
 
 import {
   lunchHotAppetizers,
@@ -18,12 +20,20 @@ import {
 } from '../../../datas/lunchItems';
 
 import {
+  dinnerSalad,
+  dinnerUdon,
+  dinnerDonburi,
+  dinnerEntrees
+} from '../../../datas/dinnerItems';
+
+import {
   lunchColdAppetizersImages,
   rollsImages,
   lunchHotAppetizersImages,
   entreesImages,
   sushiSashimiImages,
-  sideImages
+  sideImages,
+  saladImages
 } from '../../../datas/itemsImages';
 
 const LunchMenu = () => {
@@ -32,7 +42,20 @@ const LunchMenu = () => {
       <NavBar />
 
       <div className='dinner-wrapper'>
+        <Bento
+          bground={'blackwhite'}
+          wrapper_id={'bento'}
+          bento={bento}
+          bento1={bento1}
+        />
         <Sides bground={'blackwhite'} items={lunchSides} images={sideImages} />
+        <MenuItems
+          bground={'blackwhite'}
+          header={'salads'}
+          wrapper_id={'salads'}
+          items={dinnerSalad}
+          images={saladImages}
+        />
         <MenuItems
           bground={'whiteblack'}
           header={'hot appetizers'}
@@ -66,19 +89,18 @@ const LunchMenu = () => {
         />
 
         <MakiRolls bground={'whiteblack'} />
-        <MenuItems
+
+        <DinnerMenuItem
           bground={'blackwhite'}
           header={'entrees'}
           wrapper_id={'entrees'}
-          items={lunchEntrees}
+          items={dinnerEntrees}
+          dinnerUdon={dinnerUdon}
+          dinnerDonburi={dinnerDonburi}
           images={entreesImages}
         />
-        <Bento
-          bground={'blackwhite'}
-          wrapper_id={'bento'}
-          bento={bento}
-          bento1={bento1}
-        />
+
+        <KidsMeal bground={'blackwhite'} wrapper_id={'bento'} />
       </div>
     </Fragment>
   );
