@@ -12,7 +12,6 @@ import {
   lunchHotAppetizers,
   lunchColdAppetizers,
   sushiRolls,
-  lunchEntrees,
   lunchSushiSashimi,
   lunchSides,
   bento,
