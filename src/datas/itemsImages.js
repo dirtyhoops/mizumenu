@@ -9,7 +9,7 @@ import porkdonburi from '../img/porkdonburi.jpg';
 import takocarpacio from '../img/takocarpacio.jpg';
 
 export const hotAppetizersImages = [
-  require('../img/tempura.jpg'),
+  require('../../../img/tempura.jpg'),
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
