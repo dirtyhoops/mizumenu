@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const MenuItems = props => {
-  const { bground, items, header, images, wrapper_id, bigpicture } = props;
+  const {
+    bground,
+    items,
+    header,
+    images,
+    wrapper_id,
+    bigpicture,
+    handleShowDialog
+  } = props;
   return (
     <div className={`dinner-box ${bground}`} id={wrapper_id}>
       <div className='dinner-box-header'>
@@ -11,7 +19,11 @@ const MenuItems = props => {
         <div className='dinner-box-container__images'>
           {images.map((image, index) => (
             <div key={index} className='dinner-box-container__images__box'>
-              <img src={image} alt='yeeeeeeeee' />
+              <img
+                src={image}
+                alt='no photo'
+                onClick={() => handleShowDialog(image)}
+              />
             </div>
           ))}
         </div>

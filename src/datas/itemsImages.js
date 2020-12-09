@@ -1,10 +1,23 @@
+import crispyRice from '../img/crispyrice.jpg';
+import takoyaki from '../img/takoyaki.jpg';
+import calamari from '../img/calamari.jpg';
+import tempura from '../img/tempura.jpg';
+import chickenbulgogi from '../img/chickenbulgogi.jpg';
+import spicyporkbulgogi from '../img/spicyporkbulgogi.jpg';
+import galbi from '../img/galbi.jpg';
+import porkdonburi from '../img/porkdonburi.jpg';
+import takocarpacio from '../img/takocarpacio.jpg';
+
 export const hotAppetizersImages = [
+  tempura,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
+  // 'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
+  crispyRice,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/wagyu-tataki1.jpg'
+  takoyaki,
+  calamari
 ];
 
 export const coldAppetizersImages = [
@@ -12,7 +25,8 @@ export const coldAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/tuna-tartar.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-crudo1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg',
+  takocarpacio
 ];
 
 export const rollsImages = [
@@ -38,16 +52,19 @@ export const lunchColdAppetizersImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/tuna-tartar.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/yellowtail-crudo1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/cajun-tuna-sashimi.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg'
+  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/citrus-seared-salmon-sashimi.jpg',
+  takocarpacio
 ];
 
 export const lunchHotAppetizersImages = [
+  tempura,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
+  crispyRice,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg',
-  'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/wagyu-tataki1.jpg'
+  takoyaki,
+  calamari
 ];
 
 export const entreesImages = [
@@ -55,7 +72,11 @@ export const entreesImages = [
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/chicken-teriyaki-main.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/beef-teriyaki-main.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/salmon-teriyaki.jpg',
+  galbi,
+  chickenbulgogi,
+  spicyporkbulgogi,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/nabeyaki-udon-land.jpg',
+  porkdonburi,
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/house-boat.jpg'
 ];
 

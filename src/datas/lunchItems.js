@@ -124,13 +124,6 @@ export const lunchHotAppetizers = [
     name: 'sweet potato fries',
     description: 'deep-fried sweet potatoes served with wasabi mayo',
     price: 9
-  },
-  {
-    name: 'spicy tuna poppers',
-    description:
-      'deep-fried jalapenos stuffed with spicy tuna & cream cheese topped with unagi sauce',
-    price: 14,
-    isSpicy: true
   }
 ];
 
@@ -634,17 +627,6 @@ export const lunchEntrees = [
     description:
       'flaky & buttery miso marinated cod baked & topped with fried potato slivers',
     price: 28.5
-  },
-  {
-    name: 'surf & turf',
-    description:
-      '4oz of wagyu steak & lobster tail on top of a bed of potatoes',
-    price: 48
-  },
-  {
-    name: 'wagyu steak',
-    description: '6oz wagyu steak on top of a bed of potatoes',
-    price: 34
   },
   {
     name: 'chicken katsu',

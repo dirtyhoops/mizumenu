@@ -1,5 +1,6 @@
 .dinner-wrapper {
   width: 100%;
+  position: relative;
 }
 
 .dinner {
@@ -273,4 +274,19 @@
     font-size: 14px;
     margin-bottom: 5px;
   }
+}
+
+.dialog {
+  position: fixed;
+  width: 100vw;
+  top: 20%;
+  z-index: 30;
+
+  // padding: 2rem;
+}
+
+.zoomed-image {
+  width: 100%;
+  // padding: 1rem;
+  box-shadow: 1px 1px 50px black;
 }

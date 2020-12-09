@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState } from 'react';
 import MenuItems from '../../layout/MenuItems/MenuItems';
 import SushiSashimi from '../../layout/MenuItems/SushiSashimi';
 import Sides from '../../layout/MenuItems/Sides';
@@ -36,9 +36,28 @@ import {
 } from '../../../datas/itemsImages';
 
 const LunchMenu = () => {
+  // ALL THIS IS FOR THE IMAGE ZOOM
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(null);
+
+  const handleShowDialog = currImg => {
+    setIsOpen(!isOpen);
+    setCurrentImage(currImg);
+    console.log('cliked');
+  };
   return (
     <Fragment>
       <NavBar />
+      {isOpen && (
+        <dialog className='dialog' open onClick={() => handleShowDialog()}>
+          <img
+            className='zoomed-image'
+            src={currentImage}
+            onClick={() => handleShowDialog()}
+            alt='no image'
+          />
+        </dialog>
+      )}
 
       <div className='dinner-wrapper'>
         <Bento
@@ -47,13 +66,19 @@ const LunchMenu = () => {
           bento={bento}
           bento1={bento1}
         />
-        <Sides bground={'blackwhite'} items={lunchSides} images={sideImages} />
+        <Sides
+          bground={'blackwhite'}
+          items={lunchSides}
+          images={sideImages}
+          handleShowDialog={handleShowDialog}
+        />
         <MenuItems
           bground={'blackwhite'}
           header={'salads'}
           wrapper_id={'salads'}
           items={dinnerSalad}
           images={saladImages}
+          handleShowDialog={handleShowDialog}
         />
         <MenuItems
           bground={'whiteblack'}
@@ -61,6 +86,7 @@ const LunchMenu = () => {
           wrapper_id={'hotappetizers'}
           items={lunchHotAppetizers}
           images={lunchHotAppetizersImages}
+          handleShowDialog={handleShowDialog}
         />
 
         <MenuItems
@@ -69,6 +95,7 @@ const LunchMenu = () => {
           wrapper_id={'coldappetizers'}
           items={lunchColdAppetizers}
           images={lunchColdAppetizersImages}
+          handleShowDialog={handleShowDialog}
         />
         <MenuItems
           bground={'whiteblack'}
@@ -76,6 +103,7 @@ const LunchMenu = () => {
           wrapper_id={'specialrolls'}
           items={sushiRolls}
           images={rollsImages}
+          handleShowDialog={handleShowDialog}
         />
         <SushiSashimi bground={'blackwhite'} />
         <MenuItems
@@ -85,6 +113,7 @@ const LunchMenu = () => {
           items={lunchSushiSashimi}
           images={sushiSashimiImages}
           bigpicture={'true'}
+          handleShowDialog={handleShowDialog}
         />
 
         <MakiRolls bground={'whiteblack'} />
@@ -97,6 +126,7 @@ const LunchMenu = () => {
           dinnerUdon={dinnerUdon}
           dinnerDonburi={dinnerDonburi}
           images={entreesImages}
+          handleShowDialog={handleShowDialog}
         />
 
         <KidsMeal bground={'blackwhite'} wrapper_id={'bento'} />
