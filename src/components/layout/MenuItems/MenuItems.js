@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const MenuItems = props => {
   const {
@@ -21,7 +21,7 @@ const MenuItems = props => {
             <div key={index} className='dinner-box-container__images__box'>
               <img
                 src={image}
-                alt='no photo'
+                alt='nada'
                 onClick={() => handleShowDialog(image)}
               />
             </div>

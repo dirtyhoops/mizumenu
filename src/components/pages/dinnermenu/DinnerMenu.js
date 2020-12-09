@@ -37,7 +37,6 @@ const DinnerMenu = () => {
   const handleShowDialog = currImg => {
     setIsOpen(!isOpen);
     setCurrentImage(currImg);
-    console.log('cliked');
   };
 
   return (
