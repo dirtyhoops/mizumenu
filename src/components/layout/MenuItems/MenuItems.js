@@ -1,5 +1,4 @@
 import React from 'react';
-import React from 'react';
 import crispyRice from '../../../img/../img/crispyrice.jpg';
 import takoyaki from '../../../img/takoyaki.jpg';
 import calamari from '../../../img/calamari.jpg';
