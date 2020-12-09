@@ -9,12 +9,12 @@ import porkdonburi from '../img/porkdonburi.jpg';
 import takocarpacio from '../img/takocarpacio.jpg';
 
 export const hotAppetizersImages = [
-  tempura,
+  require(tempura),
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
   // 'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/crispy-rice.jpg',
-  crispyRice,
+  require(crispyRice),
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/spicy-popcorn-scallop1.jpg',
   takoyaki,
   calamari
