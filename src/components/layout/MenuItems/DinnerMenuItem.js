@@ -23,7 +23,7 @@ const DinnerMenuItem = props => {
             <div key={index} className='dinner-box-container__images__box'>
               <img
                 src={image}
-                alt='no photo'
+                alt='nada'
                 onClick={() => handleShowDialog(image)}
               />
             </div>

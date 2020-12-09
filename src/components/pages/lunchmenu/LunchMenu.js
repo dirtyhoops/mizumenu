@@ -54,7 +54,7 @@ const LunchMenu = () => {
             className='zoomed-image'
             src={currentImage}
             onClick={() => handleShowDialog()}
-            alt='no image'
+            alt='nada'
           />
         </dialog>
       )}
