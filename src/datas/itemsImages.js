@@ -1,12 +1,12 @@
-import crispyRice from '../img/crispyrice.jpg';
-import takoyaki from '../img/takoyaki.jpg';
-import calamari from '../img/calamari.jpg';
-import tempura from '../img/tempura.jpg';
-import chickenbulgogi from '../img/chickenbulgogi.jpg';
-import spicyporkbulgogi from '../img/spicyporkbulgogi.jpg';
-import galbi from '../img/galbi.jpg';
-import porkdonburi from '../img/porkdonburi.jpg';
-import takocarpacio from '../img/takocarpacio.jpg';
+import crispyRice from '../../../img/crispyrice.jpg';
+import takoyaki from '../../../img/takoyaki.jpg';
+import calamari from '../../../img/calamari.jpg';
+import tempura from '../../../img/tempura.jpg';
+import chickenbulgogi from '../../../img/chickenbulgogi.jpg';
+import spicyporkbulgogi from '../../../img/spicyporkbulgogi.jpg';
+import galbi from '../../../img/galbi.jpg';
+import porkdonburi from '../../../img/porkdonburi.jpg';
+import takocarpacio from '../../../img/takocarpacio.jpg';
 
 export const hotAppetizersImages = [
   tempura,
