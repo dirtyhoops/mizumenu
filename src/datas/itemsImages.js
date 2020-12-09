@@ -57,7 +57,7 @@ export const lunchColdAppetizersImages = [
 ];
 
 export const lunchHotAppetizersImages = [
-  'https://drive.google.com/uc?id=1ShUgtCfopBQiOn2sy-xeTHMS2bBL-Apt'
+  'https://drive.google.com/uc?id=1ShUgtCfopBQiOn2sy-xeTHMS2bBL-Apt',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/baked-green-mussels1.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/gyoza.jpg',
   'http://mizusbg.com/sanjose/wp-content/uploads/sites/3/2015/01/agedashi-tofu-landscape.jpg',
