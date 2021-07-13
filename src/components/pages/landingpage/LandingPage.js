@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MizuLogo from '../../../img/mizusushi.png';
 
 const LandingPage = () => {
   return (
     <div className='landing-wrapper'>
       <div className='landing-header'>
-        <div className='landing-header__image'></div>
+        <div className='landing-header__image'>
+          <img src={MizuLogo} alt='mizuimglogo' />
+        </div>
       </div>
       <div className='landing-actions'>
         <Link className='link' to={'/drinks'}>

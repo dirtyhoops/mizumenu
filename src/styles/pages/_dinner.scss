@@ -20,8 +20,21 @@
 
         &__box {
           margin-bottom: 10px;
+          position: relative;
+
           & img {
             width: 100%;
+          }
+
+          &-text {
+            position: absolute;
+            bottom: 12px;
+            left: 4px;
+            background-color: rgb(71, 47, 47);
+            color: white;
+            font-size: 10px;
+            padding: 0 1rem;
+            text-transform: capitalize;
           }
         }
       }
@@ -55,32 +68,33 @@
   display: flex;
   flex-wrap: wrap;
   // padding: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 
   // Maybe change this later. smaller font is better
   font-family: 'Oswald', sans-serif;
 }
 
 .list-name {
-  flex: 0 0 65%;
+  flex: 0 0 80%;
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
+  margin-bottom: -3px;
 }
 
 .list-price {
-  flex: 0 0 35%;
+  flex: 0 0 20%;
   text-align: right;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
 }
 
 .list-description {
   flex: 0 0 85%;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 1;
-  margin-top: -2px;
+  line-height: 1.2;
+  // margin-top: -2px;
 }
 
 .blackwhite {

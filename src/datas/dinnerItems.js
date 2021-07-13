@@ -616,7 +616,7 @@ export const dinnerSushiSashimi = [
   {
     name: 'signature boat',
     description: "chef's selection of sushi, sashimi & signature roll",
-    price: '45 per person',
+    price: '45/person',
     addtionalDescription: 'minimum 2 person per order'
   }
 ];

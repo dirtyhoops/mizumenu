@@ -20,10 +20,13 @@ const MenuItems = props => {
           {images.map((image, index) => (
             <div key={index} className='dinner-box-container__images__box'>
               <img
-                src={image}
+                src={image.link}
                 alt='nada'
-                onClick={() => handleShowDialog(image)}
+                onClick={() => handleShowDialog(image.link)}
               />
+              <p className='dinner-box-container__images__box-text'>
+                {image.name}
+              </p>
             </div>
           ))}
         </div>
