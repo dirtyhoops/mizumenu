@@ -17,11 +17,11 @@ const KidsMeal = props => {
           <ul>
             <li className='bento-box-li-flex'>
               <p>Chicken </p>
-              <p>12.5</p>
+              <p>16</p>
             </li>
             <li className='bento-box-li-flex'>
               <p>Beef or Salmon</p>
-              <p>15.5</p>
+              <p>18</p>
             </li>
           </ul>
         </div>
@@ -30,11 +30,11 @@ const KidsMeal = props => {
           <ul>
             <li className='bento-box-li-flex'>
               <p>Chicken </p>
-              <p>13.5</p>
+              <p>16</p>
             </li>
             <li className='bento-box-li-flex'>
               <p>Pork</p>
-              <p>13.5</p>
+              <p>16</p>
             </li>
           </ul>
         </div>
