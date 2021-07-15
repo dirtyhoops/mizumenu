@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPepperHot } from '@fortawesome/free-solid-svg-icons';
 
 const Sides = props => {
   const { bground, items, images, handleShowDialog } = props;
@@ -29,7 +31,10 @@ const Sides = props => {
                 <p className='sides-list-name'>
                   {item.name}
                   {item.isSpicy && (
-                    <i className='fas fa-pepper-hot icon-hotpepper'></i>
+                    <FontAwesomeIcon
+                      className='icon-hotpepper'
+                      icon={faPepperHot}
+                    />
                   )}
                 </p>
                 <p className='sides-list-price'>{item.price}</p>

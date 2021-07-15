@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPepperHot, faLeaf } from '@fortawesome/free-solid-svg-icons';
 
 const Bento = props => {
   const { bground, wrapper_id } = props;
@@ -39,7 +41,10 @@ const Bento = props => {
               <p>beef bulgogi *</p>
               <p>
                 spicy pork bulgogi *{' '}
-                <i className='fas fa-pepper-hot icon-hotpepper'></i>
+                <FontAwesomeIcon
+                  className='icon-hotpepper'
+                  icon={faPepperHot}
+                />
               </p>
             </li>
             <li>
@@ -48,10 +53,14 @@ const Bento = props => {
               <p>california roll</p>
               <p>
                 spicy tuna roll{' '}
-                <i className='fas fa-pepper-hot icon-hotpepper'></i>
+                <FontAwesomeIcon
+                  className='icon-hotpepper'
+                  icon={faPepperHot}
+                />
               </p>
               <p>
-                cucumber roll <i className='fas fa-leaf icon-leaf'></i>
+                cucumber roll{' '}
+                <FontAwesomeIcon className='icon-leaf' icon={faLeaf} />
               </p>
             </li>
             <li>

@@ -1,7 +1,10 @@
 import React from 'react';
 import { makiRolls, vegetarianRolls } from '../../../datas/lunchItems';
 
-const MakiRolls = (props) => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPepperHot, faLeaf } from '@fortawesome/free-solid-svg-icons';
+
+const MakiRolls = props => {
   const { bground } = props;
   return (
     <div className={`dinner-box ${bground}`} id='maki'>
@@ -15,7 +18,10 @@ const MakiRolls = (props) => {
               <p className='makiroll-list-name'>
                 {item.name}
                 {item.isSpicy && (
-                  <i className='fas fa-pepper-hot icon-hotpepper'></i>
+                  <FontAwesomeIcon
+                    className='icon-hotpepper'
+                    icon={faPepperHot}
+                  />
                 )}
               </p>
               <p className='makiroll-list-price'>{item.price}</p>
@@ -27,7 +33,7 @@ const MakiRolls = (props) => {
             <li key={index}>
               <p className='makiroll-list-name'>
                 {item.name}
-                <i className='fas fa-leaf icon-leaf'></i>
+                <FontAwesomeIcon className='icon-leaf' icon={faLeaf} />
               </p>
               <p className='makiroll-list-price'>{item.price}</p>
             </li>
