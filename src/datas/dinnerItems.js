@@ -679,13 +679,13 @@ export const dinnerEntrees = [
     name: 'chicken bulgogi',
     description:
       'grilled marinated chicken over sauteed mushrooms, bell peppers & onions & served on a sizzling plate topped with green onions & seasme seeds',
-    price: 27
+    price: 26
   },
   {
     name: 'spicy pork bulgogi',
     description:
       'mnarinated spicy pork over sauteed mushrooms, bell peppers & onions & served on a sizzling plate topped with green onions & sesame seeds',
-    price: 30,
+    price: 28,
     isSpicy: true
   },
   {

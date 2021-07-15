@@ -9,7 +9,7 @@ const Bento = props => {
       </div>
       <div className='bento-box-subheader'>
         <p>Choose 2 or 3 items from below</p>
-        <p>2 item box $15.5 | 3 item box $17.5</p>
+        <p>2 item box $19 | 3 item box $22</p>
       </div>
       <div className='bento-box-container'>
         <div className='bento-box-container__left'>
