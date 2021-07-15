@@ -26,7 +26,7 @@ const App = () => {
       <Fragment>
         <div className='container'>
           {/* <NavBar /> */}
-          <BrowserRouter basename='/React'>
+          <BrowserRouter>
             <Switch>
               <Route exact path='/' component={LandingPage} />
               <Route exact path='/dinner' component={DinnerMenu} />
