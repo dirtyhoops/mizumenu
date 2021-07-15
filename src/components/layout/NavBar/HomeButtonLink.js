@@ -6,7 +6,7 @@ const HomeButtonLink = () => {
     <div className='navbar-container__right'>
       <Link to={'/'}>
         <p className='home-button'>
-          <i class='fa fa-home' aria-hidden='true'></i>
+          <i class='fas fa-home'></i>
         </p>
       </Link>
     </div>
